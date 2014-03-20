@@ -20,6 +20,8 @@ def get_mx_for_domain(domain):
     return best_mx_ip
 
 if __name__ == '__main__':
+    print('Processing...')
+
     DNS.DiscoverNameServers()
 
     queue = []
